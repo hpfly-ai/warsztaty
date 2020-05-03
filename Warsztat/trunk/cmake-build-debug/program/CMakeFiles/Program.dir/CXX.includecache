@@ -7,7 +7,7 @@
 #IncludeRegexTransform: 
 
 ../library/include/model/Client.h
-iostream
+string
 -
 
 /Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat/trunk/program/src/main.cpp

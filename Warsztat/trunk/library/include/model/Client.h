@@ -1,13 +1,21 @@
-#include <iostream>
+#include <string>
 
 using namespace std;
 class Client{   //Class
+//  Default private
+    string firstName;
+    string lastName;
+    string personalID;
+    string get_firstName() const;
+    string get_lastName() const;
+    string get_personalID() const;
+    //Destruktor
 public:
-    Client(){   //Kostruktor
-        cout << "Kostruktor zostal wylolany" << endl << endl;   //Cout komunikat
-    }
+    Client();  //Konstruktor
+    Client(string imie, string nazwisko, string PESSEL);    // На кострукторы действует перегрузка
 
-    ~Client(){  //Destruktor
-        cout << "Destruktor zostal wywolany" << endl << endl;   //Cout komunikat
-    }
+    string getClientInfo() const;
+
+
+    ~Client();
 };

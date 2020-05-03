@@ -5,10 +5,14 @@ using namespace std;
 
 int main()
 {
-    Client a;
-    Client* b;
+    Client* Osoba1;
+    Osoba1 = new Client("Danylo","Zdoryk","233305");
 
-    b = new Client; //Tworzenie zmiennej dynamicznej
+    Client* Osoba2;
+    Osoba2 = new Client("Anton","Karpetskyi","233304");
 
-	return 0;
+    delete Osoba1;
+    delete Osoba2;
+
+    return 0;
 }
