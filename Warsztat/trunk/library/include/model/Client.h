@@ -6,16 +6,16 @@ class Client{   //Class
     string firstName;
     string lastName;
     string personalID;
-    string get_firstName() const;
-    string get_lastName() const;
-    string get_personalID() const;
     //Destruktor
 public:
-    Client();  //Konstruktor
+//    Client();  //Konstruktor
     Client(string imie, string nazwisko, string PESSEL);    // На кострукторы действует перегрузка
-
-    string getClientInfo() const;
-
-
     ~Client();
+
+    std::string getClientInfo() const;
+    std::string get_firstName() const;
+    std::string get_lastName() const;
+    std::string get_personalID() const;
+    void set_firstName(std::string imie);
+    void set_lastName(std::string nazwisko);
 };
