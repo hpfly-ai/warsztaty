@@ -1,0 +1,4 @@
+"/Users/danilzdorik/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/201.6668.126/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat/trunk"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat/trunk/cmake-build-debug
