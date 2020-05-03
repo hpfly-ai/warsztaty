@@ -1,9 +1,12 @@
 #include <iostream>
-#include <math_helpers.h>
+#incude <model/Client.h>
+
+using namespace std;
 
 int main()
 {
-	std::cout << "Hello world!" << std::endl;
-    std::cout << factorial(5);
+    Client a;
+    Client b;
+
 	return 0;
 }
