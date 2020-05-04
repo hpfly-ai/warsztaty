@@ -40,7 +40,7 @@ string Client::get_personalID() const {   // Вывод Песселя
     return personalID;
 }
 
-void Client::set_firstName(std::string imie){   //setter имени
+bool Client::set_firstName(std::string imie){   //setter имени
     if (imie == ""){
         cout << "Niemozliwa zmiana imia" << endl;
     }
@@ -48,10 +48,11 @@ void Client::set_firstName(std::string imie){   //setter имени
         cout << "Zmiana imia z : " << firstName << " na " << imie << " ..." << endl << endl;
         firstName = imie;
         cout << "Imie zostalo zmienione" << endl << endl;
+        return true;
     }
 }
 
-void Client::set_lastName(std::string nazwisko){    //setter Фмилии
+bool Client::set_lastName(std::string nazwisko){    //setter Фмилии
     if(nazwisko == ""){
         cout << "Niemozliwa zmiana nazwiska" << endl << endl;
     }
@@ -59,5 +60,7 @@ void Client::set_lastName(std::string nazwisko){    //setter Фмилии
         cout << "Zmiana nazwiska z : " << lastName << " na " << nazwisko << " ..."  << endl;
         lastName = nazwisko;
         cout << "Nazwisko zostalo zmienione" << endl << endl;
+        return true;
     }
 }
+

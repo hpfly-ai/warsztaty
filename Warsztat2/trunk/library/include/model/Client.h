@@ -12,10 +12,10 @@ public:
     Client(string imie, string nazwisko, string PESSEL);    // На кострукторы действует перегрузка
     ~Client();
 
-    std::string getClientInfo() const;
-    std::string get_firstName() const;
-    std::string get_lastName() const;
-    std::string get_personalID() const;
-    void set_firstName(std::string imie);
-    void set_lastName(std::string nazwisko);
+    string getClientInfo() const;
+    string get_firstName() const;
+    string get_lastName() const;
+    string get_personalID() const;
+    bool set_firstName(std::string imie);
+    bool set_lastName(std::string nazwisko);
 };
