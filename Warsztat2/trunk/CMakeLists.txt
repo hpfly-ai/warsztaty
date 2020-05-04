@@ -1,0 +1,22 @@
+cmake_minimum_required(VERSION 3.4)
+
+set(CMAKE_CXX_COMPILER g++)
+set(CMAKE_C_COMPILER gcc)
+set(CMAKE_CXX_STANDARD 11)
+
+set(CMAKE_BUILD_TYPE Debug)
+set(CMAKE_C_FLAGS_DEBUG "-g3 -gdwarf-4")
+set(CMAKE_CXX_FLAGS_DEBUG "-g3 -gdwarf-4")
+
+project(226453)
+enable_language(CXX)
+
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+set(CMAKE_VERBOSE_MAKEFILE TRUE)
+
+add_subdirectory(program)
+add_subdirectory(library)
+
+set (-Wall -Wpedantic -Wextra)
+
+enable_testing()
