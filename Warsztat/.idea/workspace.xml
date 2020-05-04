@@ -39,6 +39,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
   </component>
+<<<<<<< Updated upstream
   <component name="RunManager" selected="CMake Application.Program">
     <configuration name="CarRental" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="233305" TARGET_NAME="CarRental" CONFIG_NAME="Debug">
       <method v="2">
@@ -55,6 +56,8 @@
       <item itemvalue="CMake Application.Program" />
     </list>
   </component>
+=======
+>>>>>>> Stashed changes
   <component name="SvnConfiguration" cleanupOnStartRun="true">
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
