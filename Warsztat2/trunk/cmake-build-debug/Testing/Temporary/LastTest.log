@@ -1,39 +1,45 @@
-Start testing: May 04 16:06 CEST
+Start testing: May 04 17:04 CEST
 ----------------------------------------------------------
 1/1 Testing: LibraryTest1
 1/1 Test: LibraryTest1
 Command: "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library/LibraryTest" "--report_level=detailed" "--log_level=all" "--color_output=yes"
 Directory: /Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library
-"LibraryTest1" start time: May 04 16:06 CEST
+"LibraryTest1" start time: May 04 17:04 CEST
 Output:
 ----------------------------------------------------------
 Running 1 test case...
 [1;34;49mEntering test module "Master Test Suite"
-[0;39;49m[1;34;49m/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/library/test/ClientTest.cpp:4: Entering test suite "TestSuiteClient"
-[0;39;49m[1;34;49m/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/library/test/ClientTest.cpp:6: Entering test case "AssertionsTests"
-[0;39;49m/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/library/test/ClientTest.cpp:7: [1;32;49minfo: check 1.0/3.0 == 0.333 has passed[0;39;49m
-/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/library/test/ClientTest.cpp:8: [1;32;49minfo: check true has passed[0;39;49m
-[1;34;49m/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/library/test/ClientTest.cpp:6: Leaving test case "AssertionsTests"; testing time: 86us
-[0;39;49m[1;34;49m/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/library/test/ClientTest.cpp:4: Leaving test suite "TestSuiteClient"; testing time: 98us
-[0;39;49m[1;34;49mLeaving test module "Master Test Suite"; testing time: 119us
+[0;39;49m[1;34;49m/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/library/test/ClientTest.cpp:7: Entering test suite "TestSuiteClient"
+[0;39;49m[1;34;49m/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/library/test/ClientTest.cpp:9: Entering test case "AssertionsTests"
+[0;39;49mClient information: 
+Imie: Danylo
+Nazwisko: Zdoryk
+Numer PESSEL: 233305
+
+/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/library/test/ClientTest.cpp:12: [1;32;49minfo: check Osoba1->get_firstName() == "Danylo" has passed[0;39;49m
+/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/library/test/ClientTest.cpp:13: [1;32;49minfo: check Osoba1->get_lastName() == "Zdoryk" has passed[0;39;49m
+/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/library/test/ClientTest.cpp:14: [1;32;49minfo: check Osoba1->get_personalID() == "233305" has passed[0;39;49m
+[1;34;49m/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/library/test/ClientTest.cpp:9: Leaving test case "AssertionsTests"; testing time: 148us
+[0;39;49m[1;34;49m/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/library/test/ClientTest.cpp:7: Leaving test suite "TestSuiteClient"; testing time: 165us
+[0;39;49m[1;34;49mLeaving test module "Master Test Suite"; testing time: 200us
 [0;39;49m
 Test module "Master Test Suite" has passed with:
   1 test case out of 1 passed
-  2 assertions out of 2 passed
+  3 assertions out of 3 passed
 
   Test suite "TestSuiteClient" has passed with:
     1 test case out of 1 passed
-    2 assertions out of 2 passed
+    3 assertions out of 3 passed
 
     Test case "TestSuiteClient/AssertionsTests" has passed with:
-      2 assertions out of 2 passed
+      3 assertions out of 3 passed
 
 <end of output>
-Test time =   0.38 sec
+Test time =   0.21 sec
 ----------------------------------------------------------
 Test Passed.
-"LibraryTest1" end time: May 04 16:06 CEST
+"LibraryTest1" end time: May 04 17:04 CEST
 "LibraryTest1" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: May 04 16:06 CEST
+End testing: May 04 17:04 CEST

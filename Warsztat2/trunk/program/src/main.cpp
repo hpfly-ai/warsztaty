@@ -1,4 +1,3 @@
-#include <iostream>
 #include "model/Client.h"   //Class Client
 
 using namespace std;

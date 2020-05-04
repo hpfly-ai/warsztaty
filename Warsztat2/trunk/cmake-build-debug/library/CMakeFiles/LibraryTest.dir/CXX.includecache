@@ -6,9 +6,15 @@
 
 #IncludeRegexTransform: 
 
+../library/include/model/Client.h
+string
+-
+
 /Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/library/test/ClientTest.cpp
 boost/test/unit_test.hpp
 -
+model/Client.h
+/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/library/test/model/Client.h
 
 /opt/local/include/boost/aligned_storage.hpp
 boost/type_traits/aligned_storage.hpp

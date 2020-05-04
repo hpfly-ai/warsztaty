@@ -10,7 +10,7 @@ using namespace std;
 //    cout << "Konstruktor bezparametrowy zostal wywolany" << endl << endl;   //Cout komunikat
 //}
 
-Client::Client(string imie, string nazwisko, string PESSEL) : firstName(imie), lastName(nazwisko), personalID(PESSEL){  //Обьявляем переменные класса к функции
+Client::Client(string imie, string nazwisko, string PESSEL) : firstName(imie), lastName(nazwisko), personalID(PESSEL){
     cout << getClientInfo();
 }
 
@@ -18,9 +18,6 @@ Client::~Client() { // Destrukor
     cout << "Destruktor zostal wylolany" << endl << endl;   //Cout komunikat
     cout << getClientInfo() << endl;    // Etap 3.3
 }
-
-
-
 
 string Client::getClientInfo() const {  //Zwraca informacje
     ostringstream out;// Кароче тут за это как раз отвечает та библиотека sstream она собирает все в одну штуку а потом выдает через cout
@@ -30,7 +27,6 @@ string Client::getClientInfo() const {  //Zwraca informacje
     out << "Nazwisko: " << get_lastName() << endl << "Numer PESSEL: " << get_personalID() << endl << endl;
     return out.str();   /// Выводим нашу корзину
 }
-
 
 string Client::get_firstName() const {  //Вывод Имени
     return firstName;
@@ -43,7 +39,6 @@ string Client::get_lastName() const {   //Вывод Фамилии
 string Client::get_personalID() const {   // Вывод Песселя
     return personalID;
 }
-
 
 void Client::set_firstName(std::string imie){   //setter имени
     if (imie == ""){
