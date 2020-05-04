@@ -17,6 +17,62 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr\ 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="LibraryTest">
+				<Option output="/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library/LibraryTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/library/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr\ 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 LibraryTest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr\ 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr\ 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr\ 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LibraryTest/fast">
+				<Option output="/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library/LibraryTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/library/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr\ 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 LibraryTest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr\ 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr\ 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr\ 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="check">
+				<Option working_dir="/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr\ 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 check"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr\ 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr\ 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr\ 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="CarRental">
 				<Option output="/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library/libCarRental.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library"/>
@@ -25,6 +81,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/library/include"/>
+					<Add directory="/opt/local/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
@@ -47,6 +104,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/library/include"/>
+					<Add directory="/opt/local/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
@@ -64,6 +122,12 @@
 		</Build>
 		<Unit filename="/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/library/src/model/Client.cpp">
 			<Option target="CarRental"/>
+		</Unit>
+		<Unit filename="/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/library/test/ClientTest.cpp">
+			<Option target="LibraryTest"/>
+		</Unit>
+		<Unit filename="/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/library/test/master.cpp">
+			<Option target="LibraryTest"/>
 		</Unit>
 		<Unit filename="/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

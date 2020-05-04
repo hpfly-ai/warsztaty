@@ -59,17 +59,6 @@ CMAKE_BINARY_DIR = "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"/Users/danilzdorik/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/201.6668.126/CLion.app/Contents/bin/cmake/mac/bin/cmake" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -91,6 +80,17 @@ test:
 test/fast: test
 
 .PHONY : test/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"/Users/danilzdorik/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/201.6668.126/CLion.app/Contents/bin/cmake/mac/bin/cmake" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -123,6 +123,36 @@ preinstall/fast:
 depend:
 	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+# Convenience name for target.
+library/CMakeFiles/LibraryTest.dir/rule:
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 library/CMakeFiles/LibraryTest.dir/rule
+.PHONY : library/CMakeFiles/LibraryTest.dir/rule
+
+# Convenience name for target.
+LibraryTest: library/CMakeFiles/LibraryTest.dir/rule
+
+.PHONY : LibraryTest
+
+# fast build rule for target.
+LibraryTest/fast:
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/LibraryTest.dir/build.make library/CMakeFiles/LibraryTest.dir/build
+.PHONY : LibraryTest/fast
+
+# Convenience name for target.
+library/CMakeFiles/check.dir/rule:
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 library/CMakeFiles/check.dir/rule
+.PHONY : library/CMakeFiles/check.dir/rule
+
+# Convenience name for target.
+check: library/CMakeFiles/check.dir/rule
+
+.PHONY : check
+
+# fast build rule for target.
+check/fast:
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/check.dir/build.make library/CMakeFiles/check.dir/build
+.PHONY : check/fast
 
 # Convenience name for target.
 library/CMakeFiles/CarRental.dir/rule:
@@ -166,19 +196,81 @@ src/model/Client.cpp.s:
 	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/CarRental.dir/build.make library/CMakeFiles/CarRental.dir/src/model/Client.cpp.s
 .PHONY : src/model/Client.cpp.s
 
+test/ClientTest.o: test/ClientTest.cpp.o
+
+.PHONY : test/ClientTest.o
+
+# target to build an object file
+test/ClientTest.cpp.o:
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/LibraryTest.dir/build.make library/CMakeFiles/LibraryTest.dir/test/ClientTest.cpp.o
+.PHONY : test/ClientTest.cpp.o
+
+test/ClientTest.i: test/ClientTest.cpp.i
+
+.PHONY : test/ClientTest.i
+
+# target to preprocess a source file
+test/ClientTest.cpp.i:
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/LibraryTest.dir/build.make library/CMakeFiles/LibraryTest.dir/test/ClientTest.cpp.i
+.PHONY : test/ClientTest.cpp.i
+
+test/ClientTest.s: test/ClientTest.cpp.s
+
+.PHONY : test/ClientTest.s
+
+# target to generate assembly for a file
+test/ClientTest.cpp.s:
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/LibraryTest.dir/build.make library/CMakeFiles/LibraryTest.dir/test/ClientTest.cpp.s
+.PHONY : test/ClientTest.cpp.s
+
+test/master.o: test/master.cpp.o
+
+.PHONY : test/master.o
+
+# target to build an object file
+test/master.cpp.o:
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/LibraryTest.dir/build.make library/CMakeFiles/LibraryTest.dir/test/master.cpp.o
+.PHONY : test/master.cpp.o
+
+test/master.i: test/master.cpp.i
+
+.PHONY : test/master.i
+
+# target to preprocess a source file
+test/master.cpp.i:
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/LibraryTest.dir/build.make library/CMakeFiles/LibraryTest.dir/test/master.cpp.i
+.PHONY : test/master.cpp.i
+
+test/master.s: test/master.cpp.s
+
+.PHONY : test/master.s
+
+# target to generate assembly for a file
+test/master.cpp.s:
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/LibraryTest.dir/build.make library/CMakeFiles/LibraryTest.dir/test/master.cpp.s
+.PHONY : test/master.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
+	@echo "... LibraryTest"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... rebuild_cache"
+	@echo "... check"
 	@echo "... CarRental"
 	@echo "... src/model/Client.o"
 	@echo "... src/model/Client.i"
 	@echo "... src/model/Client.s"
+	@echo "... test/ClientTest.o"
+	@echo "... test/ClientTest.i"
+	@echo "... test/ClientTest.s"
+	@echo "... test/master.o"
+	@echo "... test/master.i"
+	@echo "... test/master.s"
 .PHONY : help
 
 

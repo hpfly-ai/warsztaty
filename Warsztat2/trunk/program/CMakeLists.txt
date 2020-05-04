@@ -13,6 +13,6 @@ target_link_libraries(Program CarRental)
 
 target_include_directories(Program PUBLIC include)
 
-enable_testing()
+enable_testing()    #testy on
 
 

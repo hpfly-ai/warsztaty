@@ -20,4 +20,3 @@ add_subdirectory(library)
 set (-Wall -Wpedantic -Wextra)
 
 enable_testing()
-
