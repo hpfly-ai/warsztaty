@@ -125,46 +125,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-library/CMakeFiles/MathLibrary.dir/rule:
-	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 library/CMakeFiles/MathLibrary.dir/rule
-.PHONY : library/CMakeFiles/MathLibrary.dir/rule
+library/CMakeFiles/CarRental.dir/rule:
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 library/CMakeFiles/CarRental.dir/rule
+.PHONY : library/CMakeFiles/CarRental.dir/rule
 
 # Convenience name for target.
-MathLibrary: library/CMakeFiles/MathLibrary.dir/rule
+CarRental: library/CMakeFiles/CarRental.dir/rule
 
-.PHONY : MathLibrary
+.PHONY : CarRental
 
 # fast build rule for target.
-MathLibrary/fast:
-	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/MathLibrary.dir/build.make library/CMakeFiles/MathLibrary.dir/build
-.PHONY : MathLibrary/fast
-
-src/math_helpers.o: src/math_helpers.cpp.o
-
-.PHONY : src/math_helpers.o
-
-# target to build an object file
-src/math_helpers.cpp.o:
-	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/MathLibrary.dir/build.make library/CMakeFiles/MathLibrary.dir/src/math_helpers.cpp.o
-.PHONY : src/math_helpers.cpp.o
-
-src/math_helpers.i: src/math_helpers.cpp.i
-
-.PHONY : src/math_helpers.i
-
-# target to preprocess a source file
-src/math_helpers.cpp.i:
-	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/MathLibrary.dir/build.make library/CMakeFiles/MathLibrary.dir/src/math_helpers.cpp.i
-.PHONY : src/math_helpers.cpp.i
-
-src/math_helpers.s: src/math_helpers.cpp.s
-
-.PHONY : src/math_helpers.s
-
-# target to generate assembly for a file
-src/math_helpers.cpp.s:
-	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/MathLibrary.dir/build.make library/CMakeFiles/MathLibrary.dir/src/math_helpers.cpp.s
-.PHONY : src/math_helpers.cpp.s
+CarRental/fast:
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/CarRental.dir/build.make library/CMakeFiles/CarRental.dir/build
+.PHONY : CarRental/fast
 
 src/model/Client.o: src/model/Client.cpp.o
 
@@ -172,7 +145,7 @@ src/model/Client.o: src/model/Client.cpp.o
 
 # target to build an object file
 src/model/Client.cpp.o:
-	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/MathLibrary.dir/build.make library/CMakeFiles/MathLibrary.dir/src/model/Client.cpp.o
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/CarRental.dir/build.make library/CMakeFiles/CarRental.dir/src/model/Client.cpp.o
 .PHONY : src/model/Client.cpp.o
 
 src/model/Client.i: src/model/Client.cpp.i
@@ -181,7 +154,7 @@ src/model/Client.i: src/model/Client.cpp.i
 
 # target to preprocess a source file
 src/model/Client.cpp.i:
-	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/MathLibrary.dir/build.make library/CMakeFiles/MathLibrary.dir/src/model/Client.cpp.i
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/CarRental.dir/build.make library/CMakeFiles/CarRental.dir/src/model/Client.cpp.i
 .PHONY : src/model/Client.cpp.i
 
 src/model/Client.s: src/model/Client.cpp.s
@@ -190,7 +163,7 @@ src/model/Client.s: src/model/Client.cpp.s
 
 # target to generate assembly for a file
 src/model/Client.cpp.s:
-	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/MathLibrary.dir/build.make library/CMakeFiles/MathLibrary.dir/src/model/Client.cpp.s
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/CarRental.dir/build.make library/CMakeFiles/CarRental.dir/src/model/Client.cpp.s
 .PHONY : src/model/Client.cpp.s
 
 # Help Target
@@ -202,10 +175,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
-	@echo "... MathLibrary"
-	@echo "... src/math_helpers.o"
-	@echo "... src/math_helpers.i"
-	@echo "... src/math_helpers.s"
+	@echo "... CarRental"
 	@echo "... src/model/Client.o"
 	@echo "... src/model/Client.i"
 	@echo "... src/model/Client.s"

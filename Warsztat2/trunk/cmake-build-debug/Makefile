@@ -138,17 +138,17 @@ Program/fast:
 .PHONY : Program/fast
 
 #=============================================================================
-# Target rules for targets named MathLibrary
+# Target rules for targets named CarRental
 
 # Build rule for target.
-MathLibrary: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 MathLibrary
-.PHONY : MathLibrary
+CarRental: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CarRental
+.PHONY : CarRental
 
 # fast build rule for target.
-MathLibrary/fast:
-	$(MAKE) -f library/CMakeFiles/MathLibrary.dir/build.make library/CMakeFiles/MathLibrary.dir/build
-.PHONY : MathLibrary/fast
+CarRental/fast:
+	$(MAKE) -f library/CMakeFiles/CarRental.dir/build.make library/CMakeFiles/CarRental.dir/build
+.PHONY : CarRental/fast
 
 # Help Target
 help:
@@ -160,7 +160,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... test"
 	@echo "... Program"
-	@echo "... MathLibrary"
+	@echo "... CarRental"
 .PHONY : help
 
 

@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6"/>
 	<Project>
-		<Option title="226453"/>
+		<Option title="233305"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;CMake Files\program\;CMake Files\library\;"/>
@@ -93,8 +93,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr\ 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="MathLibrary">
-				<Option output="/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library/libMathLibrary.a" prefix_auto="0" extension_auto="0"/>
+			<Target title="CarRental">
+				<Option output="/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library/libCarRental.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
@@ -109,14 +109,14 @@
 					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr\ 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 MathLibrary"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr\ 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 CarRental"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr\ 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr\ 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr\ 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="MathLibrary/fast">
-				<Option output="/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library/libMathLibrary.a" prefix_auto="0" extension_auto="0"/>
+			<Target title="CarRental/fast">
+				<Option output="/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library/libCarRental.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
@@ -131,18 +131,15 @@
 					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr\ 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 MathLibrary/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr\ 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 CarRental/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr\ 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr\ 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr\ 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/library/src/math_helpers.cpp">
-			<Option target="MathLibrary"/>
-		</Unit>
 		<Unit filename="/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/library/src/model/Client.cpp">
-			<Option target="MathLibrary"/>
+			<Option target="CarRental"/>
 		</Unit>
 		<Unit filename="/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/program/src/main.cpp">
 			<Option target="Program"/>

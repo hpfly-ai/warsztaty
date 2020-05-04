@@ -6,12 +6,7 @@
 },
 {
   "directory": "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library",
-  "command": "/usr/bin/g++   -I\"/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/library/include\"  -g3 -gdwarf-4 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/MathLibrary.dir/src/math_helpers.cpp.o -c \"/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/library/src/math_helpers.cpp\"",
-  "file": "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/library/src/math_helpers.cpp"
-},
-{
-  "directory": "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library",
-  "command": "/usr/bin/g++   -I\"/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/library/include\"  -g3 -gdwarf-4 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/MathLibrary.dir/src/model/Client.cpp.o -c \"/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/library/src/model/Client.cpp\"",
+  "command": "/usr/bin/g++   -I\"/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/library/include\"  -g3 -gdwarf-4 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/CarRental.dir/src/model/Client.cpp.o -c \"/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/library/src/model/Client.cpp\"",
   "file": "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/library/src/model/Client.cpp"
 }
 ]

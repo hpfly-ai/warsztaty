@@ -127,5 +127,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "program/CMakeFiles/Program.dir/DependInfo.cmake"
-  "library/CMakeFiles/MathLibrary.dir/DependInfo.cmake"
+  "library/CMakeFiles/CarRental.dir/DependInfo.cmake"
   )
