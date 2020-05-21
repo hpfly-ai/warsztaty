@@ -1,21 +1,25 @@
 #include <string>
+#include <vector>
+#include "model/Address.h"
 
-using namespace std;
+
 class Client{   //Class
 //  Default private
-    string firstName;
-    string lastName;
-    string personalID;
-
+    std::string firstName;
+    std::string lastName;
+    std::string personalID;
+    Address* addressptr = new Address("","","");
 public:
-//    Client();  //Konstruktor
-    Client(string imie, string nazwisko, string PESSEL);    // На кострукторы действует перегрузка
-    ~Client();
-
-    string getClientInfo() const;
-    string get_firstName() const;
-    string get_lastName() const;
-    string get_personalID() const;
-    bool set_firstName(string imie);
-    bool set_lastName(string nazwisko);
+    //Client();
+    Client(std::string imie, std::string nazwisko, std::string PESSEL, Address* address_ptr);
+    Client(std::string imie, std::string nazwisko, std::string PESSEL);
+    //Konstruktor ma overload
+    virtual ~Client();
+    std::string getClientInfo() const;
+    std::string get_firstName() const;
+    std::string get_lastName() const;
+    std::string get_personalID() const;
+    bool set_firstName(std::string imie);
+    bool set_lastName(std::string nazwisko);
+    bool set_address(Address* address_ptr);
 };

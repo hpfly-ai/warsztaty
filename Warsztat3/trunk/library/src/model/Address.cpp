@@ -7,11 +7,11 @@ using namespace std;
 
 
 Address::Address(string miasto, string ulica, string numer) : city(miasto), street(ulica), number(numer){
-    getAdressInfo();
+    getAddressInfo();
 }
 
 
-string Address::getAdressInfo() const {
+string Address::getAddressInfo() const {
     ostringstream out;
     out << "Address information: "  << endl << "City: " << get_city()  << endl;
     out << "Ulica: " << get_street() << " " << get_number() << endl << endl;

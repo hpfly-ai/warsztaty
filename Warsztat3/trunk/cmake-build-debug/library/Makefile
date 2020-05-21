@@ -51,10 +51,10 @@ RM = "/Users/danilzdorik/Library/Application Support/JetBrains/Toolbox/apps/CLio
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk"
+CMAKE_SOURCE_DIR = "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat3/trunk"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat3/trunk/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -94,14 +94,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/CMakeFiles" "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/library/CMakeFiles/progress.marks"
-	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 library/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug/CMakeFiles" 0
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat3/trunk/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat3/trunk/cmake-build-debug/CMakeFiles" "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat3/trunk/cmake-build-debug/library/CMakeFiles/progress.marks"
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat3/trunk/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 library/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat3/trunk/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 library/clean
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat3/trunk/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 library/clean
 .PHONY : clean
 
 # The main clean target
@@ -111,22 +111,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 library/preinstall
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat3/trunk/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 library/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 library/preinstall
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat3/trunk/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 library/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat3/trunk/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 library/CMakeFiles/LibraryTest.dir/rule:
-	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 library/CMakeFiles/LibraryTest.dir/rule
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat3/trunk/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 library/CMakeFiles/LibraryTest.dir/rule
 .PHONY : library/CMakeFiles/LibraryTest.dir/rule
 
 # Convenience name for target.
@@ -136,12 +136,12 @@ LibraryTest: library/CMakeFiles/LibraryTest.dir/rule
 
 # fast build rule for target.
 LibraryTest/fast:
-	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/LibraryTest.dir/build.make library/CMakeFiles/LibraryTest.dir/build
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat3/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/LibraryTest.dir/build.make library/CMakeFiles/LibraryTest.dir/build
 .PHONY : LibraryTest/fast
 
 # Convenience name for target.
 library/CMakeFiles/check.dir/rule:
-	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 library/CMakeFiles/check.dir/rule
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat3/trunk/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 library/CMakeFiles/check.dir/rule
 .PHONY : library/CMakeFiles/check.dir/rule
 
 # Convenience name for target.
@@ -151,12 +151,12 @@ check: library/CMakeFiles/check.dir/rule
 
 # fast build rule for target.
 check/fast:
-	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/check.dir/build.make library/CMakeFiles/check.dir/build
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat3/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/check.dir/build.make library/CMakeFiles/check.dir/build
 .PHONY : check/fast
 
 # Convenience name for target.
 library/CMakeFiles/CarRental.dir/rule:
-	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 library/CMakeFiles/CarRental.dir/rule
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat3/trunk/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 library/CMakeFiles/CarRental.dir/rule
 .PHONY : library/CMakeFiles/CarRental.dir/rule
 
 # Convenience name for target.
@@ -166,7 +166,7 @@ CarRental: library/CMakeFiles/CarRental.dir/rule
 
 # fast build rule for target.
 CarRental/fast:
-	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/CarRental.dir/build.make library/CMakeFiles/CarRental.dir/build
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat3/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/CarRental.dir/build.make library/CMakeFiles/CarRental.dir/build
 .PHONY : CarRental/fast
 
 src/model/Address.o: src/model/Address.cpp.o
@@ -175,7 +175,7 @@ src/model/Address.o: src/model/Address.cpp.o
 
 # target to build an object file
 src/model/Address.cpp.o:
-	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/CarRental.dir/build.make library/CMakeFiles/CarRental.dir/src/model/Address.cpp.o
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat3/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/CarRental.dir/build.make library/CMakeFiles/CarRental.dir/src/model/Address.cpp.o
 .PHONY : src/model/Address.cpp.o
 
 src/model/Address.i: src/model/Address.cpp.i
@@ -184,7 +184,7 @@ src/model/Address.i: src/model/Address.cpp.i
 
 # target to preprocess a source file
 src/model/Address.cpp.i:
-	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/CarRental.dir/build.make library/CMakeFiles/CarRental.dir/src/model/Address.cpp.i
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat3/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/CarRental.dir/build.make library/CMakeFiles/CarRental.dir/src/model/Address.cpp.i
 .PHONY : src/model/Address.cpp.i
 
 src/model/Address.s: src/model/Address.cpp.s
@@ -193,7 +193,7 @@ src/model/Address.s: src/model/Address.cpp.s
 
 # target to generate assembly for a file
 src/model/Address.cpp.s:
-	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/CarRental.dir/build.make library/CMakeFiles/CarRental.dir/src/model/Address.cpp.s
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat3/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/CarRental.dir/build.make library/CMakeFiles/CarRental.dir/src/model/Address.cpp.s
 .PHONY : src/model/Address.cpp.s
 
 src/model/Client.o: src/model/Client.cpp.o
@@ -202,7 +202,7 @@ src/model/Client.o: src/model/Client.cpp.o
 
 # target to build an object file
 src/model/Client.cpp.o:
-	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/CarRental.dir/build.make library/CMakeFiles/CarRental.dir/src/model/Client.cpp.o
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat3/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/CarRental.dir/build.make library/CMakeFiles/CarRental.dir/src/model/Client.cpp.o
 .PHONY : src/model/Client.cpp.o
 
 src/model/Client.i: src/model/Client.cpp.i
@@ -211,7 +211,7 @@ src/model/Client.i: src/model/Client.cpp.i
 
 # target to preprocess a source file
 src/model/Client.cpp.i:
-	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/CarRental.dir/build.make library/CMakeFiles/CarRental.dir/src/model/Client.cpp.i
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat3/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/CarRental.dir/build.make library/CMakeFiles/CarRental.dir/src/model/Client.cpp.i
 .PHONY : src/model/Client.cpp.i
 
 src/model/Client.s: src/model/Client.cpp.s
@@ -220,7 +220,7 @@ src/model/Client.s: src/model/Client.cpp.s
 
 # target to generate assembly for a file
 src/model/Client.cpp.s:
-	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/CarRental.dir/build.make library/CMakeFiles/CarRental.dir/src/model/Client.cpp.s
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat3/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/CarRental.dir/build.make library/CMakeFiles/CarRental.dir/src/model/Client.cpp.s
 .PHONY : src/model/Client.cpp.s
 
 test/AddressTest.o: test/AddressTest.cpp.o
@@ -229,7 +229,7 @@ test/AddressTest.o: test/AddressTest.cpp.o
 
 # target to build an object file
 test/AddressTest.cpp.o:
-	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/LibraryTest.dir/build.make library/CMakeFiles/LibraryTest.dir/test/AddressTest.cpp.o
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat3/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/LibraryTest.dir/build.make library/CMakeFiles/LibraryTest.dir/test/AddressTest.cpp.o
 .PHONY : test/AddressTest.cpp.o
 
 test/AddressTest.i: test/AddressTest.cpp.i
@@ -238,7 +238,7 @@ test/AddressTest.i: test/AddressTest.cpp.i
 
 # target to preprocess a source file
 test/AddressTest.cpp.i:
-	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/LibraryTest.dir/build.make library/CMakeFiles/LibraryTest.dir/test/AddressTest.cpp.i
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat3/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/LibraryTest.dir/build.make library/CMakeFiles/LibraryTest.dir/test/AddressTest.cpp.i
 .PHONY : test/AddressTest.cpp.i
 
 test/AddressTest.s: test/AddressTest.cpp.s
@@ -247,7 +247,7 @@ test/AddressTest.s: test/AddressTest.cpp.s
 
 # target to generate assembly for a file
 test/AddressTest.cpp.s:
-	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/LibraryTest.dir/build.make library/CMakeFiles/LibraryTest.dir/test/AddressTest.cpp.s
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat3/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/LibraryTest.dir/build.make library/CMakeFiles/LibraryTest.dir/test/AddressTest.cpp.s
 .PHONY : test/AddressTest.cpp.s
 
 test/ClientTest.o: test/ClientTest.cpp.o
@@ -256,7 +256,7 @@ test/ClientTest.o: test/ClientTest.cpp.o
 
 # target to build an object file
 test/ClientTest.cpp.o:
-	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/LibraryTest.dir/build.make library/CMakeFiles/LibraryTest.dir/test/ClientTest.cpp.o
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat3/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/LibraryTest.dir/build.make library/CMakeFiles/LibraryTest.dir/test/ClientTest.cpp.o
 .PHONY : test/ClientTest.cpp.o
 
 test/ClientTest.i: test/ClientTest.cpp.i
@@ -265,7 +265,7 @@ test/ClientTest.i: test/ClientTest.cpp.i
 
 # target to preprocess a source file
 test/ClientTest.cpp.i:
-	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/LibraryTest.dir/build.make library/CMakeFiles/LibraryTest.dir/test/ClientTest.cpp.i
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat3/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/LibraryTest.dir/build.make library/CMakeFiles/LibraryTest.dir/test/ClientTest.cpp.i
 .PHONY : test/ClientTest.cpp.i
 
 test/ClientTest.s: test/ClientTest.cpp.s
@@ -274,7 +274,7 @@ test/ClientTest.s: test/ClientTest.cpp.s
 
 # target to generate assembly for a file
 test/ClientTest.cpp.s:
-	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/LibraryTest.dir/build.make library/CMakeFiles/LibraryTest.dir/test/ClientTest.cpp.s
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat3/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/LibraryTest.dir/build.make library/CMakeFiles/LibraryTest.dir/test/ClientTest.cpp.s
 .PHONY : test/ClientTest.cpp.s
 
 test/master.o: test/master.cpp.o
@@ -283,7 +283,7 @@ test/master.o: test/master.cpp.o
 
 # target to build an object file
 test/master.cpp.o:
-	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/LibraryTest.dir/build.make library/CMakeFiles/LibraryTest.dir/test/master.cpp.o
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat3/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/LibraryTest.dir/build.make library/CMakeFiles/LibraryTest.dir/test/master.cpp.o
 .PHONY : test/master.cpp.o
 
 test/master.i: test/master.cpp.i
@@ -292,7 +292,7 @@ test/master.i: test/master.cpp.i
 
 # target to preprocess a source file
 test/master.cpp.i:
-	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/LibraryTest.dir/build.make library/CMakeFiles/LibraryTest.dir/test/master.cpp.i
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat3/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/LibraryTest.dir/build.make library/CMakeFiles/LibraryTest.dir/test/master.cpp.i
 .PHONY : test/master.cpp.i
 
 test/master.s: test/master.cpp.s
@@ -301,7 +301,7 @@ test/master.s: test/master.cpp.s
 
 # target to generate assembly for a file
 test/master.cpp.s:
-	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/LibraryTest.dir/build.make library/CMakeFiles/LibraryTest.dir/test/master.cpp.s
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat3/trunk/cmake-build-debug" && $(MAKE) -f library/CMakeFiles/LibraryTest.dir/build.make library/CMakeFiles/LibraryTest.dir/test/master.cpp.s
 .PHONY : test/master.cpp.s
 
 # Help Target
@@ -342,6 +342,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat3/trunk/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

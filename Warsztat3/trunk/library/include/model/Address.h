@@ -1,21 +1,19 @@
 #include <string>
 
-using namespace std;
-
 class Address{
-    string city;
-    string street;
-    string number;
+    std::string city;
+    std::string street;
+    std::string number;
 
 
 public:
-    Address(string miasto, string ulica, string numer);
+    Address(std::string miasto, std::string ulica, std::string numer);
 
-    string getAdressInfo() const;
-    string get_city() const;
-    string get_street() const;
-    string get_number() const;
-    bool set_street(string ulica);
-    bool set_city(string miasto);
-    bool set_number(string numer);
+    std::string getAddressInfo() const;
+    std::string get_city() const;
+    std::string get_street() const;
+    std::string get_number() const;
+    bool set_street(std::string ulica);
+    bool set_city(std::string miasto);
+    bool set_number(std::string numer);
 };

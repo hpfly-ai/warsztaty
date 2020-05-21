@@ -6,5 +6,5 @@ CXX_FLAGS = -g3 -gdwarf-4 -isysroot /Library/Developer/CommandLineTools/SDKs/Mac
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat2/trunk/library/include" -I/opt/local/include 
+CXX_INCLUDES = -I"/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat3/trunk/library/include" -I/opt/local/include 
 

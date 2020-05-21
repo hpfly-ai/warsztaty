@@ -5,27 +5,29 @@
 
 using namespace std;
 
-
-//Client::Client(){   // Konstruktor
-//    cout << "Konstruktor bezparametrowy zostal wywolany" << endl << endl;   //Cout komunikat
-//}
-
 Client::Client(string imie, string nazwisko, string PESSEL) : firstName(imie), lastName(nazwisko), personalID(PESSEL){
     cout << getClientInfo();
 }
 
-Client::~Client() { // Destrukor
-    cout << "Destruktor zostal wylolany" << endl << endl;   //Cout komunikat
-    cout << getClientInfo() << endl;    // Etap 3.3
+Client::Client(string imie, string nazwisko, string PESSEL, Address* address_ptr) : firstName(imie), lastName(nazwisko), personalID(PESSEL), addressptr(address_ptr){
+    cout << getClientInfo();
 }
 
 string Client::getClientInfo() const {  //Zwraca informacje
-    ostringstream out;// Кароче тут за это как раз отвечает та библиотека sstream она собирает все в одну штуку а потом выдает через cout
-    // Сверху видно что с помощью ostringstream мы обьявляем нашу сумку out её можно назвать как угодно вместо out можем написать jepa и будет работать
-    // Дальше все складываем в out как в обычный cout
+    ostringstream out;
     out << "Client information: "  << endl << "Imie: " << get_firstName()  << endl;   // Передаем в нашу шту
     out << "Nazwisko: " << get_lastName() << endl << "Numer PESSEL: " << get_personalID() << endl << endl;
-    return out.str();   /// Выводим нашу корзину
+    if(addressptr->get_number().empty() || addressptr->get_city().empty() || addressptr->get_street().empty()){
+    }
+    else {
+        out << addressptr->getAddressInfo() << endl;
+    }
+
+    return out.str();
+}
+
+Client::~Client() {
+
 }
 
 string Client::get_firstName() const {  //Вывод Имени
@@ -52,7 +54,7 @@ bool Client::set_firstName(std::string imie){   //setter имени
     }
 }
 
-bool Client::set_lastName(std::string nazwisko){    //setter Фмилии
+bool Client::set_lastName(std::string nazwisko){    //setter nazwiska
     if(nazwisko == ""){
         cout << "Niemozliwa zmiana nazwiska" << endl << endl;
     }
@@ -64,3 +66,13 @@ bool Client::set_lastName(std::string nazwisko){    //setter Фмилии
     }
 }
 
+bool Client::set_address(Address* address_ptr)
+{
+    if(address_ptr->get_number().empty() || address_ptr->get_city().empty() || address_ptr->get_street().empty())
+    {
+        cout<<"NiemoĹźliwa zmiana adresu" << endl;
+        return false;
+    }
+    addressptr = address_ptr;
+    return true;
+}
