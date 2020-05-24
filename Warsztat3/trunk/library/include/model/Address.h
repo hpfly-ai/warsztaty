@@ -11,9 +11,13 @@ public:
 
     std::string getAddressInfo() const;
     std::string get_city() const;
-    std::string get_street() const;
-    std::string get_number() const;
-    bool set_street(std::string ulica);
-    bool set_city(std::string miasto);
-    bool set_number(std::string numer);
+
+    const std::string &getCity() const;
+    const std::string &getStreet() const;
+    const std::string &getNumber() const;
+
+    bool setCity(const std::string &city);
+    bool setStreet(const std::string &street);
+    bool setNumber(const std::string &number);
+
 };

@@ -6,18 +6,16 @@
 using namespace std;
 
 Client::Client(string imie, string nazwisko, string PESSEL) : firstName(imie), lastName(nazwisko), personalID(PESSEL){
-    cout << getClientInfo();
 }
 
 Client::Client(string imie, string nazwisko, string PESSEL, Address* address_ptr) : firstName(imie), lastName(nazwisko), personalID(PESSEL), addressptr(address_ptr){
-    cout << getClientInfo();
 }
 
 string Client::getClientInfo() const {  //Zwraca informacje
     ostringstream out;
-    out << "Client information: "  << endl << "Imie: " << get_firstName()  << endl;   // Передаем в нашу шту
-    out << "Nazwisko: " << get_lastName() << endl << "Numer PESSEL: " << get_personalID() << endl << endl;
-    if(addressptr->get_number().empty() || addressptr->get_city().empty() || addressptr->get_street().empty()){
+    out << "Client information: "  << endl << "Imie: " << &Client::getFirstName()  << endl;   // Передаем в нашу шту
+    out << "Nazwisko: " << getLastName() << endl << "Numer PESSEL: " << getPersonalId() << endl << endl;
+    if(addressptr->getNumber().empty() || addressptr->getCity().empty() || addressptr->getStreet().empty()){
     }
     else {
         out << addressptr->getAddressInfo() << endl;
@@ -30,49 +28,73 @@ Client::~Client() {
 
 }
 
-string Client::get_firstName() const {  //Вывод Имени
-    return firstName;
-}
 
-string Client::get_lastName() const {   //Вывод Фамилии
-    return lastName;
-}
-
-string Client::get_personalID() const {   // Вывод Песселя
-    return personalID;
-}
-
-bool Client::set_firstName(std::string imie){   //setter имени
-    if (imie == ""){
-        cout << "Niemozliwa zmiana imia" << endl;
-    }
-    else{
-        cout << "Zmiana imia z : " << firstName << " na " << imie << " ..." << endl << endl;
-        firstName = imie;
-        cout << "Imie zostalo zmienione" << endl << endl;
-        return true;
-    }
-}
-
-bool Client::set_lastName(std::string nazwisko){    //setter nazwiska
-    if(nazwisko == ""){
+bool Client::setLastName(const string &lastName) {
+    if(lastName == ""){
         cout << "Niemozliwa zmiana nazwiska" << endl << endl;
     }
     else{
-        cout << "Zmiana nazwiska z : " << lastName << " na " << nazwisko << " ..."  << endl;
-        lastName = nazwisko;
+        cout << "Zmiana nazwiska z : " << Client::lastName << " na " << lastName << " ..."  << endl;
+        Client::lastName = lastName;
         cout << "Nazwisko zostalo zmienione" << endl << endl;
         return true;
     }
 }
 
-bool Client::set_address(Address* address_ptr)
-{
-    if(address_ptr->get_number().empty() || address_ptr->get_city().empty() || address_ptr->get_street().empty())
+bool Client::setPersonalId(const string &personalId) {
+    if (personalId == ""){
+        cout << "Niemozliwa zmiana PESSEL" << endl;
+    }
+    else{
+        cout << "Zmiana PESSEL z : " << Client::personalID << " na " << personalId << " ..." << endl << endl;
+        Client::personalID = personalId;
+        cout << "Imie zostalo zmienione" << endl << endl;
+        return true;
+    }
+    personalID = personalId;
+}
+
+bool Client::setAddressptr(Address *addressptr) {
+    if(addressptr->getNumber().empty() || addressptr->getCity().empty() || addressptr->getStreet().empty())
     {
         cout<<"NiemoĹźliwa zmiana adresu" << endl;
         return false;
     }
-    addressptr = address_ptr;
+    addressptr = Client::addressptr;
     return true;
+}
+
+bool Client::setFirstName(const string &firstName){
+    if (firstName == ""){
+        cout << "Niemozliwa zmiana imia" << endl;
+        return false;
+    }
+    else{
+        cout << "Zmiana imia z : " << Client::firstName << " na " << firstName << " ..." << endl << endl;
+        Client::firstName = firstName;
+        cout << "Imie zostalo zmienione" << endl << endl;
+        return true;
+    }
+}
+
+Address *Client::getAddressptr() const {
+    return addressptr;
+}
+
+const string &Client::getLastName() const {
+    return lastName;
+}
+
+const string &Client::getFirstName() const {
+    return firstName;
+}
+
+
+
+const string &Client::getPersonalId() const {
+    return personalID;
+}
+
+const Address* Client::get_address() const{
+    return addressptr;
 }

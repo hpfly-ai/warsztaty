@@ -16,10 +16,23 @@ public:
     //Konstruktor ma overload
     virtual ~Client();
     std::string getClientInfo() const;
-    std::string get_firstName() const;
-    std::string get_lastName() const;
-    std::string get_personalID() const;
-    bool set_firstName(std::string imie);
-    bool set_lastName(std::string nazwisko);
-    bool set_address(Address* address_ptr);
+
+    const std::string &getPersonalId() const;
+
+    const Address* get_address() const;
+
+    Address *getAddressptr() const;
+
+    const std::string &getLastName() const;
+
+    const std::string &getFirstName() const;
+
+    bool setLastName(const std::string &lastName);
+
+    bool setPersonalId(const std::string &personalId);
+
+    bool setAddressptr(Address *addressptr);
+
+    bool setFirstName(const std::string &firstName);
+
 };

@@ -13,44 +13,59 @@ Address::Address(string miasto, string ulica, string numer) : city(miasto), stre
 
 string Address::getAddressInfo() const {
     ostringstream out;
-    out << "Address information: "  << endl << "City: " << get_city()  << endl;
-    out << "Ulica: " << get_street() << " " << get_number() << endl << endl;
+    out << "Address information: "  << endl << "City: " << getCity()  << endl;
+    out << "Ulica: " << getStreet() << " " << getNumber() << endl << endl;
     return out.str();
 }
 
-string Address::get_city() const {
+
+const string &Address::getCity() const {
     return city;
 }
 
-string Address::get_street() const {   //Вывод Фамилии
+const string &Address::getStreet() const {
     return street;
 }
 
-string Address::get_number() const {   // Вывод Песселя
+const string &Address::getNumber() const {
     return number;
 }
 
-bool Address::set_city(string miasto){   //setter имени
-    if (miasto == ""){
+bool Address::setStreet(const string &street) {
+    if(street == ""){
+        cout << "Niemozliwa zmiana ulicy" << endl << endl;
+    }
+    else{
+        cout << "Zmiana ulicy z : " << Address::street << " na " << street << " ..."  << endl;
+        Address::street = street;
+        cout << "Ulica zostala zmieniona" << endl << endl;
+        return true;
+    }
+}
+
+bool Address::setNumber(const string &number) {
+    if(number == ""){
+        cout << "Niemozliwa zmiana numera" << endl << endl;
+    }
+    else{
+        cout << "Zmiana numera z : " << Address::number << " na " << number << " ..."  << endl;
+        Address::number = number;
+        cout << "Numer zostal zmieniony" << endl << endl;
+        return true;
+    }
+}
+
+bool Address::setCity(const string &city) {
+    if (city == ""){
         cout << "Niemozliwa zmiana miasta" << endl;
     }
     else{
-        cout << "Zmiana imia z : " << city << " na " << miasto << " ..." << endl << endl;
-        city = miasto;
+        cout << "Zmiana mista z : " << Address::city << " na " << city << " ..." << endl << endl;
+        Address::city = city;
         cout << "Miasto zostalo zmienione" << endl << endl;
         return true;
     }
 }
 
-bool Address::set_street(string ulica){    //setter Фмилии
-    if(ulica == ""){
-        cout << "Niemozliwa zmiana nazwiska" << endl << endl;
-    }
-    else{
-        cout << "Zmiana nazwiska z : " << city << " na " << ulica << " ..."  << endl;
-        city = ulica;
-        cout << "Nazwisko zostalo zmienione" << endl << endl;
-        return true;
-    }
-}
+
 
