@@ -1,0 +1,13 @@
+/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat4/trunk/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat4/trunk/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat4/trunk/cmake-build-debug/CMakeFiles/test.dir
+/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat4/trunk/cmake-build-debug/Program/CMakeFiles/rebuild_cache.dir
+/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat4/trunk/cmake-build-debug/Program/CMakeFiles/edit_cache.dir
+/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat4/trunk/cmake-build-debug/Program/CMakeFiles/test.dir
+/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat4/trunk/cmake-build-debug/Program/CMakeFiles/Program.dir
+/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat4/trunk/cmake-build-debug/Library/CMakeFiles/LibraryTest.dir
+/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat4/trunk/cmake-build-debug/Library/CMakeFiles/edit_cache.dir
+/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat4/trunk/cmake-build-debug/Library/CMakeFiles/test.dir
+/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat4/trunk/cmake-build-debug/Library/CMakeFiles/rebuild_cache.dir
+/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat4/trunk/cmake-build-debug/Library/CMakeFiles/check.dir
+/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat4/trunk/cmake-build-debug/Library/CMakeFiles/CarRental.dir

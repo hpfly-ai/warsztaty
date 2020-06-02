@@ -1,2 +1,0 @@
-/usr/bin/ar qc libCarRental.a  CMakeFiles/CarRental.dir/src/model/Client.cpp.o CMakeFiles/CarRental.dir/src/model/Address.cpp.o
-/usr/bin/ranlib libCarRental.a

@@ -1,4 +1,5 @@
 #include <string>
+#include "Address.h"
 
 using namespace std;
 class Client{   //Class
@@ -9,7 +10,7 @@ class Client{   //Class
 
 public:
 //    Client();  //Konstruktor
-    Client(string imie, string nazwisko, string PESSEL);    // На кострукторы действует перегрузка
+    Client(string imie, string nazwisko, string PESSEL, string* miasto, string* ulica, string* numer);    // На кострукторы действует перегрузка
     ~Client();
 
     string getClientInfo() const;
@@ -18,4 +19,5 @@ public:
     string get_personalID() const;
     bool set_firstName(string imie);
     bool set_lastName(string nazwisko);
+    Address* getAddress();
 };

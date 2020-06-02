@@ -2,6 +2,7 @@
 #include <iostream>
 #include "model/Client.h"
 #include <sstream>
+#include "model/Address.h"
 
 using namespace std;
 
@@ -10,7 +11,7 @@ using namespace std;
 //    cout << "Konstruktor bezparametrowy zostal wywolany" << endl << endl;   //Cout komunikat
 //}
 
-Client::Client(string imie, string nazwisko, string PESSEL) : firstName(imie), lastName(nazwisko), personalID(PESSEL){
+Client::Client(string imie, string nazwisko, string PESSEL, string* miasto, string* ulica, string* numer) : firstName(imie), lastName(nazwisko), personalID(PESSEL), city(miasto){
     cout << getClientInfo();
 }
 

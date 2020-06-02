@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Program"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Program\;CMake Files\Library\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat4/trunk/cmake-build-debug/Program"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr\ 2/POBI/warsztaty/Warsztat4/trunk/cmake-build-debug/Program/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr\ 2/POBI/warsztaty/Warsztat4/trunk/cmake-build-debug/Program/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr\ 2/POBI/warsztaty/Warsztat4/trunk/cmake-build-debug/Program/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr\ 2/POBI/warsztaty/Warsztat4/trunk/cmake-build-debug/Program/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Program">
+				<Option output="/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat4/trunk/cmake-build-debug/Program/Program" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat4/trunk/cmake-build-debug/Program"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat4/trunk/Program/include"/>
+					<Add directory="/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat4/trunk/Library/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr\ 2/POBI/warsztaty/Warsztat4/trunk/cmake-build-debug/Program/Makefile&quot;  VERBOSE=1 Program"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr\ 2/POBI/warsztaty/Warsztat4/trunk/cmake-build-debug/Program/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr\ 2/POBI/warsztaty/Warsztat4/trunk/cmake-build-debug/Program/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr\ 2/POBI/warsztaty/Warsztat4/trunk/cmake-build-debug/Program/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Program/fast">
+				<Option output="/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat4/trunk/cmake-build-debug/Program/Program" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat4/trunk/cmake-build-debug/Program"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat4/trunk/Program/include"/>
+					<Add directory="/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat4/trunk/Library/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr\ 2/POBI/warsztaty/Warsztat4/trunk/cmake-build-debug/Program/Makefile&quot;  VERBOSE=1 Program/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr\ 2/POBI/warsztaty/Warsztat4/trunk/cmake-build-debug/Program/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr\ 2/POBI/warsztaty/Warsztat4/trunk/cmake-build-debug/Program/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr\ 2/POBI/warsztaty/Warsztat4/trunk/cmake-build-debug/Program/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat4/trunk/Program/src/main.cpp">
+			<Option target="Program"/>
+		</Unit>
+		<Unit filename="/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat4/trunk/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat4/trunk/Program/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Program\"/>
+		</Unit>
+		<Unit filename="/Users/danilzdorik/Documents/One_Drive/Politechnika/Semestr 2/POBI/warsztaty/Warsztat4/trunk/Library/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Library\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

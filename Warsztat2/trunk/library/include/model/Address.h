@@ -7,7 +7,6 @@ class Address{
     string street;
     string number;
 
-
 public:
     Address(string miasto, string ulica, string numer);
 
